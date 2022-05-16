@@ -1,0 +1,13 @@
+body{
+background-color:#e0ffff;
+font-size:135%;
+}
+h1{
+color:#191970;
+}
+div,flooter{
+text-align:center;
+}
+li{
+list-style:square;
+}
