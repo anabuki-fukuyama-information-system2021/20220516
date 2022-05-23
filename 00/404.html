@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.45">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Hello VuePress</title><meta name="description" content="Just playing around">
+    <link rel="modulepreload" href="/20220516/00/assets/app.f7a83449.js"><link rel="modulepreload" href="/20220516/00/assets/404.html.b29f5d7f.js"><link rel="modulepreload" href="/20220516/00/assets/404.html.f166316b.js"><link rel="prefetch" href="/20220516/00/assets/index.html.eb7b09cf.js"><link rel="prefetch" href="/20220516/00/assets/index.html.9278d557.js"><link rel="prefetch" href="/20220516/00/assets/404.2dbf987c.js"><link rel="prefetch" href="/20220516/00/assets/Layout.1f9454f6.js">
+    <link rel="stylesheet" href="/20220516/00/assets/style.0cc5bdd6.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/20220516/00/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/20220516/00/assets/app.f7a83449.js" defer></script>
+  </body>
+</html>
